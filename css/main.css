@@ -2,7 +2,7 @@
     background-color: #FEFAF5;
     display:flex;
     flex-direction: row;
-    padding: 1rem 0rem ;
+    padding: 1.45rem 0rem ;
     margin: 3rem 0rem ;
     color:#335576;
     width:100%;
@@ -65,8 +65,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    padding-left:15%;
-    padding-right:15%;
+    padding-left:10%;
+    padding-right:10%;
     padding-bottom:5%;
     padding-top: 5%;
 
@@ -75,10 +75,8 @@
   .recommendations__card{
     
     border-radius: 0.313rem;
-    border: solid 1px black;
-    box-shadow:rgba(0,4,4);
-    /* need to add border opacity in here, using transparency for now*/
-    border:transparent;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow:0px 4px 4px rgba(0,0,0,0.2);
     color:white;
     font-size: medium;
     font-weight: 700;
@@ -112,6 +110,10 @@
 
   .recommendations__card--font{
     align-self:flex-end;
-    padding-left:110px;
+    padding-left:10.938rem;
+    color:white;
 
   }
+
+ 
+  

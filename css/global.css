@@ -57,15 +57,16 @@ a:link {
     color:black;
   }
 
-  a:hover {
+  li {
+    padding-bottom:0.35rem;
+  }
 
-    text-decoration: underline;
-    text-decoration-color: #DB7A4E;
-    text-decoration-style: solid;
-    text-decoration-thickness: 0.15rem;
+  li:hover {
+
+    border-bottom:0.25rem;
+    border-bottom-color: #DB7A4E;
+    border-bottom-style: solid;
     
-   
- 
   }
 
   
