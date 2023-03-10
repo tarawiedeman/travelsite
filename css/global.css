@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    margin:0;
+    padding:0;
+}
+.main-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding-right:0;
+    margin-bottom:3rem;
+    margin-right:0;
+    background-color: #FFFFFF;
+
+    /* need to come back here and fix space between nav and other elements sitting behind it */
+
+}
+
+
+
+.main-nav__title{
+    font-size:1.5rem;
+    padding-left:5rem;
+    margin-top:1rem;
+    color:#335576;
+    
+}
+
+.main-nav__list{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+    color:#335576;
+    padding-bottom:0.5rem;
+    font-size:1.25rem;
+    padding-right:2rem;
+}
+
+
+a:link {
+    text-decoration: none;
+    color:black;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+
+  a:hover {
+
+    text-decoration: underline;
+    text-decoration-color: #DB7A4E;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.15rem;
+    
+   
+ 
+  }
+
+  
+footer{
+  background-color:#FEFAF5;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height:13rem;
+  width:100%;
+  margin:0;
+  
+}
+
+.footer__container{
+  display: flex;
+  flex-direction: column;
+  margin-left:5rem;
+  margin-right:5rem;
+ 
+}
+
+.footer__container-title--large{
+  color:#335576;
+  font-size: 1.75rem;
+
+}
+
+.footer__container-title--medium{
+  color:#335576;
+  font-size: medium;
+  font-weight:300;
+
+}
+
+.footer__container-subtitle--small{
+  color:#DB7A4E;
+  font-size:small;
+  font-weight:300;
+}
+
+.footer__container-allhours{
+  display: flex;
+  flex-direction: row;  
+
+}
+
+.footer__container-day{
+  padding-right:20px;
+}
+
+
+.footer__container--social{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.footer__container--image{
+  height:4.9rem;
+  padding:1.5rem 1.5rem 1.5rem 0;
+}
+
+
+
+
+
+
+
+

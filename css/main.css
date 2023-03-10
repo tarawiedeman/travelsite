@@ -1,0 +1,117 @@
+.hero{
+    background-color: #FEFAF5;
+    display:flex;
+    flex-direction: row;
+    padding: 1rem 0rem ;
+    margin: 3rem 0rem ;
+    color:#335576;
+    width:100%;
+
+  }
+
+  .hero__leftsection{
+    display:flex;
+    flex-direction: column;
+    padding-left:5rem;
+    padding-right:12rem;
+
+  }
+
+
+  .hero__slogan{
+    color:#335576;
+    flex-wrap: wrap;
+    padding-bottom:0.75rem;
+    font-size: 1.15rem;
+
+  }
+
+  .hero__button {
+    background-color: #DB7A4E;
+    border-radius: 1.25rem;
+    font-family: Verdana;
+    font-size: 1rem;
+    color:white;
+    text-align: center;
+    padding-top:0.5rem;
+    margin-top:0.25rem;
+    margin-bottom:5.5rem;
+    width:8.5rem;
+    height:2.7rem;
+    
+  }
+
+  .hero__img{
+    width: 30%;
+    height: 45%;
+    margin-right:5rem;
+  }
+
+  .recommendations{
+    display:flex;
+    flex-direction: column;
+    
+
+  }
+
+  .recommendations__title{
+    color:#335576;
+    font-size:2rem;
+    padding-left:5rem;
+  }
+
+  .recommendations__cards-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:5%;
+    padding-top: 5%;
+
+  }
+
+  .recommendations__card{
+    
+    border-radius: 0.313rem;
+    border: solid 1px black;
+    box-shadow:rgba(0,4,4);
+    /* need to add border opacity in here, using transparency for now*/
+    border:transparent;
+    color:white;
+    font-size: medium;
+    font-weight: 700;
+    width: 57rem;
+    height: 24rem;
+    margin:1.5rem;
+
+  }
+
+  .recommendations__card--hawaii{
+    background-image:URL("../assets/images/hawaii.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+  }
+
+  .recommendations__card--iceland{
+    background-image:URL("../assets/images/iceland.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+  
+  }
+
+  .recommendations__card--greece{
+    background-image:URL("../assets/images/greece.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+  }
+
+  .recommendations__card--font{
+    align-self:flex-end;
+    padding-left:110px;
+
+  }

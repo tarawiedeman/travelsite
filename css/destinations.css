@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+}
+
+.main{
+    
+    width:100%;
+    padding-top: 5rem;
+
+}
+
+.main--hawaii{
+    background-image:URL("../assets/images/hawaii.jpg");
+    background-size: cover;
+    background-position:center;
+    
+}
+
+.main--iceland{
+    background-image:URL("../assets/images/iceland.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+.main--greece{
+    background-image:URL("../assets/images/greece.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+.main__title{
+    font-size: 4rem;
+    color:white;
+    font-weight: 700;
+    margin-left: 5rem;
+    margin-top:7rem;
+    align-self:self-start;
+
+}
+
+.card-container{
+    display: flex;
+    margin: 10% 10% 0 10%;
+    padding-bottom:20%;
+    padding-top:5%;
+    
+    
+}
+
+.card{
+    
+    border-radius:0.625rem;
+    width: 17.5rem;
+    height: 23.125rem;
+    background-color: white;
+    margin-right:5rem;
+    padding-bottom:3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card--day{
+    width:80%;
+    border-bottom: 2px solid black; 
+    height:auto;
+    color:black;
+    text-align:center;
+    margin-bottom:0.5rem;
+   
+
+}
+
+.card--activity{
+    color:black;
+    font-weight: 300;
+    background-color: #FEFAF5;
+    height:20rem;
+    width:10rem;
+    margin:0.25rem;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
