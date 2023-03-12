@@ -27,15 +27,6 @@ body{
 }
 
 
-
-.main-nav__title{
-    font-size:1.5rem;
-    padding-left:5rem;
-    margin-top:1rem;
-    color:#335576;
-    
-}
-
 .main-nav__list{
     list-style: none;
     display:flex;
@@ -45,6 +36,8 @@ body{
     font-size:1.25rem;
     padding-right:2rem;
 }
+
+
 
 
 a:link {
@@ -67,6 +60,14 @@ a:link {
     border-bottom-color: #DB7A4E;
     border-bottom-style: solid;
     
+  }
+
+  .main-nav__title {
+    font-size:1.5rem;
+    padding-left:5rem;
+    margin-top:1rem;
+    color:#335576 !important;
+  
   }
 
   
